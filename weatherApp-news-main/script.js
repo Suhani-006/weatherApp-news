@@ -13,8 +13,8 @@ const currentDateTxt = document.querySelector('.current-date-txt');
 const forecastItemsContainer = document.querySelector('.forecast-items-container');
 const newsContainer = document.querySelector('.news-list'); // News container
 
-const weatherApiKey = '73147e564fc24a1976001efb95ceb747'; // OpenWeather API Key
-const newsApiKey = '340c1f2e1d954e24ab380e9901589deb'; // NewsAPI Key
+const weatherApiKey = ''; // OpenWeather API Key
+const newsApiKey = ''; // NewsAPI Key
 
 searchBtn.addEventListener('click', () => {
     if (cityInput.value.trim() !== '') {
