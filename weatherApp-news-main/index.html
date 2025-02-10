@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather & News App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css" class="style">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Weather & News App</h1>
+        <div class="search-box">
+            <input type="text" class="city-input" placeholder="Enter city name">
+            <button class="search-btn">Search</button>
+        </div>
+
+        <!-- Weather Box -->
+        <div class="weather-info">
+            <h2 class="country-txt"></h2>
+            <img class="weather-summary-img" src="" alt="Weather Icon">
+            <p class="temp-txt"></p>
+            <p class="condition-txt"></p>
+            <p>Humidity: <span class="humidity-value-txt"></span></p>
+            <p>Wind: <span class="wind-value-txt"></span></p>
+            <p class="current-date-txt"></p>
+        </div>
+
+        <!-- 5-day Forecast -->
+        <div class="forecast-items-container"></div>
+
+        <!-- News Box -->
+        <div class="news-container">
+            <h2>Latest News</h2>
+            <div class="news-list"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
